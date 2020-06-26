@@ -15,7 +15,7 @@ RUN apt-get install -y php-mbstring
 RUN apt-get install -y composer
 RUN curl -s "https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh" | /bin/bash
 RUN apt-get install -y software-properties-common
-RUN apt-get install -y php 7.2-phalcon
+#RUN apt-get install -y php 7.2-phalcon
 #COPY ./config/php.ini /etc/php/7.2/apache2/php.ini .........safe to ignore for now - only need it if we need to pre-set a php setting................
 
 # set up virtual host in docker container
